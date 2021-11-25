@@ -9,3 +9,4 @@ solana config set -k ~/.config/solana/candyfactory-mainnet.json
 solana address > ./logs/main/wallet-log.txt
 echo "[INFO] Getting Wallet Balance"
 solana balance
+cat ~/.config/solana/candyfactory-mainnet.json

@@ -9,3 +9,4 @@ solana config set -k ~/.config/solana/candyfactory-devnet.json
 solana address > ./logs/dev/new-wallet-log.txt
 echo "[INFO] Sending airdrop"
 solana airdrop 5
+cat ~/.config/solana/candyfactory-devnet.json
